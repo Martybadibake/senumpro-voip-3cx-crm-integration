@@ -40,7 +40,7 @@ Cette capture montre un appel entrant sur l’application mobile 3CX. Elle illus
 
 L’application mobile affiche les contacts et les extensions disponibles. Cette vue permet de vérifier l’accès aux utilisateurs depuis le client mobile 3CX.
 
-
-
+Étape 3 — Configuration de la téléphonie externe
+<img width="1821" height="692" alt="09-callcentric-sip-trunk-configuration" src="https://github.com/user-attachments/assets/c805dfd6-e5f4-4106-93bc-4dc339375386" />
 
 

@@ -29,3 +29,7 @@ Le tableau de bord présente les informations générales de la plateforme 3CX, 
 Étape 2 — Configuration des utilisateurs et des téléphones
 <img width="1897" height="880" alt="04-3cx-user-extensions-overview" src="https://github.com/user-attachments/assets/a0f1262d-01ea-4f1b-8e7d-b4eddd6f5146" />
 La liste des utilisateurs permet de visualiser les extensions créées dans 3CX et leur association aux utilisateurs. Cette configuration facilite la gestion des postes et des comptes de téléphonie.
+<img width="1904" height="682" alt="05-3cx-department-configuration" src="https://github.com/user-attachments/assets/efdfbdc1-2411-45c8-b072-8ee903dd0acd" />
+Le département par défaut regroupe les utilisateurs et permet de définir les autorisations liées à leur rôle. Cette organisation contribue à structurer l’administration de la téléphonie.
+<img width="1825" height="870" alt="06-yealink-sip-t46u-configuration" src="https://github.com/user-attachments/assets/1f82ca25-a762-4378-a89e-23d872000094" />
+La configuration du Yealink SIP-T46U présente les paramètres du téléphone associés à l’extension 101. Cette étape permet de vérifier le modèle sélectionné et les informations de provisionnement du poste.

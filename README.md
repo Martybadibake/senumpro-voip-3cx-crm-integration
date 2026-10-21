@@ -42,5 +42,15 @@ L’application mobile affiche les contacts et les extensions disponibles. Cette
 
 Étape 3 — Configuration de la téléphonie externe
 <img width="1821" height="692" alt="09-callcentric-sip-trunk-configuration" src="https://github.com/user-attachments/assets/c805dfd6-e5f4-4106-93bc-4dc339375386" />
+Le trunk SIP Callcentric est visible dans la configuration Voix et Chat de 3CX. Il permet de relier la plateforme à un fournisseur de téléphonie externe pour acheminer les appels entrants et sortants.
+
+<img width="1904" height="661" alt="10-3cx-outbound-calling-rule" src="https://github.com/user-attachments/assets/899c25e2-6ca5-41bd-86cb-e48f7b14c11e" />
+
+La règle de sortie associe les appels concernés au trunk Callcentric. Elle détermine comment les numéros composés sont orientés vers le fournisseur SIP.
+
+
+
+
+
 
 

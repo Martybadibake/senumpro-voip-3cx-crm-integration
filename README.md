@@ -6,6 +6,7 @@ Ce projet consiste à mettre en place et à tester une solution de téléphonie 
 Le projet comprend également l’intégration de Microsoft Dynamics 365 pour associer les appels aux fiches de contacts du CRM, ainsi que l’intégration de Microsoft 365.
 
 L’objectif est de développer un environnement fonctionnel qui illustre des compétences en administration système, en téléphonie IP, en configuration des postes utilisateurs, en intégration applicative et en dépannage.
+
 2. Environnement technique
 - Téléphonie IP : 3CX V20, hébergé par 3CX.
 - Système d’exploitation : Debian 12 pour le SBC.

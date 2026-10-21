@@ -47,6 +47,7 @@ Le trunk SIP Callcentric est visible dans la configuration Voix et Chat de 3CX. 
 <img width="1904" height="661" alt="10-3cx-outbound-calling-rule" src="https://github.com/user-attachments/assets/899c25e2-6ca5-41bd-86cb-e48f7b14c11e" />
 
 La règle de sortie associe les appels concernés au trunk Callcentric. Elle détermine comment les numéros composés sont orientés vers le fournisseur SIP.
+Étape 4 — Enregistrement de l’application Microsoft Entra ID
 <img width="1876" height="918" alt="11-entra-dynamics365-app-registration" src="https://github.com/user-attachments/assets/1f64e20c-ae25-42f2-a8c4-25b2aefa111e" />
 
 Une application nommée « 3CX Dynamics Integration » est créée dans Microsoft Entra ID. Cette application sert à établir l’authentification nécessaire à l’intégration entre 3CX et Dynamics 365
@@ -54,5 +55,19 @@ Une application nommée « 3CX Dynamics Integration » est créée dans Microsof
 <img width="1891" height="874" alt="12-entra-app-registration-confirmation" src="https://github.com/user-attachments/assets/838a6582-7669-42df-aaae-1b9f9badc70b" />
 Cette capture présente l’application enregistrée dans Entra ID et ses principales informations de configuration. Elle permet de confirmer la création de l’application utilisée pour l’intégration.
 
+<img width="1901" height="946" alt="13-entra-api-permissions-configuration" src="https://github.com/user-attachments/assets/aa419d5f-4539-45d2-8a8f-6e5cb265ae87" />
+Les autorisations nécessaires sont ajoutées aux API Microsoft. Elles comprennent l’autorisation déléguée user_impersonation pour Dynamics CRM et User.Read pour Microsoft Graph.
+
+<img width="1904" height="796" alt="14-entra-api-permissions-review" src="https://github.com/user-attachments/assets/60708ae6-ac29-46c7-ae85-7be5c25ded6f" />
+Les autorisations configurées sont vérifiées avant leur utilisation. Cette étape permet de contrôler les permissions demandées par l’application.
+
+<img width="1440" height="519" alt="15-entra-admin-consent-granted" src="https://github.com/user-attachments/assets/6bb195fc-b348-4e6e-887a-237e15889ca3" />
+
+Le consentement de l’administrateur est accordé pour les autorisations demandées. Cette validation permet à l’intégration de poursuivre son processus d’autorisation dans le tenant concerné.
+
+Étape 5 — Intégration de Dynamics 365 et de Microsoft 365
+<img width="1898" height="876" alt="16-3cx-dynamics365-crm-integration" src="https://github.com/user-attachments/assets/ae776968-c1c9-4bd4-ade3-097fbd0108d2" />
+
+Le connecteur Microsoft Dynamics 365 est configuré dans 3CX. Les paramètres comprennent les informations de l’application, le tenant et le domaine CRM. L’autorisation OAuth permet d’établir la connexion entre les deux plateformes.
 
 

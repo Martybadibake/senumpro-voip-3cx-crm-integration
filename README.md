@@ -20,3 +20,6 @@ L’objectif est de développer un environnement fonctionnel qui illustre des co
 Étape 1 — Mise en service de 3CX et du SBC
 <img width="1911" height="738" alt="01-3cx-yealink-sbc-registration" src="https://github.com/user-attachments/assets/b92af28b-f07a-49f0-892d-f0129140dfe0" />
 Cette capture présente l’association du téléphone Yealink à l’environnement 3CX. Elle permet de vérifier que le poste est identifié dans la plateforme et associé à un SBC.
+
+<img width="1911" height="738" alt="01-3cx-yealink-sbc-registration" src="https://github.com/user-attachments/assets/b26ee00d-7d75-4469-9178-9b6c47b8028c" />
+Le serveur Debian 12 hébergeant le SBC est vérifié à l’aide de commandes système et réseau. Le service 3cxsbc est actif et configuré pour démarrer automatiquement. Le test HTTPS retourne également le code HTTP 200, confirmant que le serveur 3CX répond à cette requête depuis Debian.

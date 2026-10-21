@@ -26,3 +26,6 @@ Cette capture présente l’association du téléphone Yealink à l’environnem
 Le serveur Debian 12 hébergeant le SBC est vérifié à l’aide de commandes système et réseau. Le service 3cxsbc est actif et configuré pour démarrer automatiquement. Le test HTTPS retourne également le code HTTP 200, confirmant que le serveur 3CX répond à cette requête depuis Debian.
 <img width="1916" height="869" alt="03-3cx-system-dashboard" src="https://github.com/user-attachments/assets/bbb677ef-d790-4601-a097-a01ed936ae45" />
 Le tableau de bord présente les informations générales de la plateforme 3CX, notamment la version, le nom de domaine, les extensions et les paramètres de téléphonie. Cette vue sert de point de départ pour vérifier l’état général du système.
+Étape 2 — Configuration des utilisateurs et des téléphones
+<img width="1897" height="880" alt="04-3cx-user-extensions-overview" src="https://github.com/user-attachments/assets/a0f1262d-01ea-4f1b-8e7d-b4eddd6f5146" />
+La liste des utilisateurs permet de visualiser les extensions créées dans 3CX et leur association aux utilisateurs. Cette configuration facilite la gestion des postes et des comptes de téléphonie.

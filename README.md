@@ -48,6 +48,7 @@ Le trunk SIP Callcentric est visible dans la configuration Voix et Chat de 3CX. 
 <img width="1904" height="661" alt="10-3cx-outbound-calling-rule" src="https://github.com/user-attachments/assets/899c25e2-6ca5-41bd-86cb-e48f7b14c11e" />
 
 La règle de sortie associe les appels concernés au trunk Callcentric. Elle détermine comment les numéros composés sont orientés vers le fournisseur SIP.
+
 Étape 4 — Enregistrement de l’application Microsoft Entra ID
 <img width="1876" height="918" alt="11-entra-dynamics365-app-registration" src="https://github.com/user-attachments/assets/1f64e20c-ae25-42f2-a8c4-25b2aefa111e" />
 

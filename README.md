@@ -72,4 +72,65 @@ Le consentement de l’administrateur est accordé pour les autorisations demand
 
 Le connecteur Microsoft Dynamics 365 est configuré dans 3CX. Les paramètres comprennent les informations de l’application, le tenant et le domaine CRM. L’autorisation OAuth permet d’établir la connexion entre les deux plateformes.
 
+<img width="1896" height="745" alt="17-3cx-microsoft365-integration-status" src="https://github.com/user-attachments/assets/e107e3f4-699e-42e0-a751-381248d5412c" />
+L’interface 3CX confirme que l’intégration Microsoft 365 est configurée et que les notifications sont synchronisées. Cette étape valide l’état de l’intégration affiché par la plateforme.
+
+<img width="1653" height="845" alt="18-dynamics365-crm-contact-lookup-test" src="https://github.com/user-attachments/assets/b4a11fa0-9a88-42c2-91d7-721216dc450a" />
+Un test de recherche CRM est exécuté à partir d’un numéro de téléphone. La plateforme retrouve une fiche de contact dans Dynamics 365, ce qui confirme le fonctionnement de la recherche pour ce numéro.
+
+<img width="1836" height="926" alt="19-dynamics365-crm-second-contact-test" src="https://github.com/user-attachments/assets/c6e24a23-c616-4263-ba0f-4c16639f2f73" />
+
+Un second test est réalisé avec un autre numéro de téléphone. Le résultat confirme que la recherche CRM peut retrouver une autre fiche de contact.
+
+<img width="1702" height="852" alt="20-3cx-dynamics365-successful-call-test" src="https://github.com/user-attachments/assets/9a435e3c-4937-44b8-abb2-a631757b782f" />
+
+Cette capture documente un test d’appel associé à l’intégration CRM. Elle complète les tests de recherche en illustrant le fonctionnement de la téléphonie avec les données de contact.
+<img width="1906" height="701" alt="21-dynamics365-contact-call-activity" src="https://github.com/user-attachments/assets/d2aca1ee-60f3-4bd2-8cf8-10ceb46e339f" />
+
+Une activité liée à un appel 3CX apparaît dans la chronologie d’une fiche de contact Dynamics 365. Cette preuve montre que les informations relatives à l’appel peuvent être consignées dans le CRM.
+
+Étape 7 — Sauvegarde et surveillance
+<img width="1842" height="629" alt="22-3cx-event-logs-and-troubleshooting" src="https://github.com/user-attachments/assets/597e2fe5-72ce-4c28-ab63-d9cf11da60c8" />
+
+Le journal des événements présente les événements système, les changements d’état du trunk SIP et du SBC, ainsi que des messages d’erreur. Ces informations sont utiles pour analyser les incidents et vérifier la stabilité des services. Les erreurs visibles rappellent qu’une surveillance régulière reste nécessaire.
+
+<img width="1739" height="728" alt="23-3cx-manual-backup" src="https://github.com/user-attachments/assets/a13e7cfb-8833-40b6-b918-8c1da986f7f1" />
+
+Une sauvegarde de la configuration 3CX est présente dans l’interface. Cette fonctionnalité permet de conserver une copie de la configuration pour faciliter une restauration en cas de problème.
+
+<img width="1633" height="455" alt="24-3cx-automatic-backup-status" src="https://github.com/user-attachments/assets/1aa75ff9-e3b9-47ef-afbe-17b03a3d7341" />
+Cette capture présente l’état de la sauvegarde automatique. Elle permet de documenter le mécanisme de sauvegarde configuré et son état au moment de la capture.
+
+4. Résultats obtenus
+Le projet a permis de mettre en place un environnement de téléphonie IP reposant sur 3CX, avec un SBC sous Debian 12 et un téléphone Yealink SIP-T46U.
+
+Les tests réalisés ont notamment permis de vérifier :
+- le fonctionnement du service SBC sous Debian ;
+- la réponse HTTPS de la plateforme 3CX depuis le serveur Debian ;
+- la présence des utilisateurs et des extensions dans 3CX ;
+- la configuration du trunk SIP et des règles d’appels sortants ;
+- l’authentification de l’application Microsoft et les autorisations associées ;
+- la recherche de contacts dans Dynamics 365 ;
+- l’apparition d’une activité d’appel dans la chronologie d’un contact ;
+- la présence des fonctions de journalisation et de sauvegarde dans 3CX.
+Les captures constituent des preuves des étapes réalisées et des résultats observés au moment des tests. Elles ne signifient pas, à elles seules, que tous les scénarios possibles ont été validés.
+5. Conclusion
+Ce projet m’a permis de mettre en pratique plusieurs compétences en administration système et réseau, en téléphonie IP et en intégration de services cloud.
+
+La réalisation du laboratoire m’a amené à configurer les utilisateurs et les téléphones, à mettre en service un SBC sous Debian 12, à connecter un fournisseur SIP et à intégrer 3CX avec Microsoft Dynamics 365 et Microsoft 365.
+
+Les tests de recherche CRM et la présence d’une activité d’appel dans Dynamics 365 démontrent l’intérêt de relier une solution de téléphonie à un outil de gestion de la relation client. La vérification du service Debian, les journaux et les sauvegardes illustrent également l’importance de la supervision et de la continuité de service.
+
+Ce laboratoire constitue une base concrète pour mon portfolio professionnel en administration système, téléphonie IP et intégration de services informatiques. Il pourra être enrichi par des tests complémentaires de résilience, de restauration des sauvegardes et de validation des appels dans différents scénarios.
+6. Sécurité et bonnes pratiques
+Les captures publiées dans le dépôt GitHub doivent être vérifiées avant leur diffusion. Les mots de passe, jetons OAuth, identifiants sensibles, adresses IP publiques et données personnelles qui ne sont pas nécessaires à la démonstration doivent être masqués.
+
+Le projet présente les éléments techniques utiles à la compréhension du laboratoire sans publier les secrets d’authentification ni les informations confidentielles de l’environnement.
+
+
+
+
+
+
+
 

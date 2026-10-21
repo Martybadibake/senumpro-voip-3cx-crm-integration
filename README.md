@@ -33,3 +33,12 @@ La liste des utilisateurs permet de visualiser les extensions créées dans 3CX 
 Le département par défaut regroupe les utilisateurs et permet de définir les autorisations liées à leur rôle. Cette organisation contribue à structurer l’administration de la téléphonie.
 <img width="1825" height="870" alt="06-yealink-sip-t46u-configuration" src="https://github.com/user-attachments/assets/1f82ca25-a762-4378-a89e-23d872000094" />
 La configuration du Yealink SIP-T46U présente les paramètres du téléphone associés à l’extension 101. Cette étape permet de vérifier le modèle sélectionné et les informations de provisionnement du poste.
+<img width="660" height="1413" alt="07-3cx-mobile-incoming-call" src="https://github.com/user-attachments/assets/eb24d7de-bac4-477d-9d65-1ec30608683f" />
+Cette capture montre un appel entrant sur l’application mobile 3CX. Elle illustre la réception d’un appel sur un terminal mobile.
+<img width="660" height="1354" alt="08-3cx-mobile-contacts-and-extensions" src="https://github.com/user-attachments/assets/d8101e1b-0357-405b-9a04-52ac06966f49" />
+L’application mobile affiche les contacts et les extensions disponibles. Cette vue permet de vérifier l’accès aux utilisateurs depuis le client mobile 3CX.
+
+
+
+
+

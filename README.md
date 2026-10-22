@@ -121,11 +121,7 @@ La réalisation du laboratoire m’a amené à configurer les utilisateurs et le
 
 Les tests de recherche CRM et la présence d’une activité d’appel dans Dynamics 365 démontrent l’intérêt de relier une solution de téléphonie à un outil de gestion de la relation client. La vérification du service Debian, les journaux et les sauvegardes illustrent également l’importance de la supervision et de la continuité de service.
 
-Ce laboratoire constitue une base concrète pour mon portfolio professionnel en administration système, téléphonie IP et intégration de services informatiques. Il pourra être enrichi par des tests complémentaires de résilience, de restauration des sauvegardes et de validation des appels dans différents scénarios.
-6. Sécurité et bonnes pratiques
-Les captures publiées dans le dépôt GitHub doivent être vérifiées avant leur diffusion. Les mots de passe, jetons OAuth, identifiants sensibles, adresses IP publiques et données personnelles qui ne sont pas nécessaires à la démonstration doivent être masqués.
-
-Le projet présente les éléments techniques utiles à la compréhension du laboratoire sans publier les secrets d’authentification ni les informations confidentielles de l’environnement.
+Ce laboratoire constitue une base concrète pour mon portfolio professionnel en administration système, téléphonie IP et intégration de services informatiques. 
 
 
 
